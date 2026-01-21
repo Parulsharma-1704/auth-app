@@ -1,25 +1,25 @@
-# 📇 Contacts – CRUD Based Application
+# 🔐 AuthX – Authentication App
 
-Simple and efficient contact management tool
+Secure and Modern User Authentication System
 
-A lightweight contact management application that enables users to Create, Read, Update, and Delete (CRUD) contact information.
-The app uses Firebase for real-time database syncing and authentication, combined with a React frontend for a smooth user experience.
+AuthX is a robust authentication application designed with strong security practices. It offers secure user signup, login, and protected routes using industry-standard tools like Bcrypt, Joi, and JWT.
+The frontend is developed in React, while the backend leverages Node.js and MongoDB for reliable performance.
 
-🚀 Features
+# 🚀 Features
 
- Add new contacts
+User Signup & Login
 
- Edit existing contacts
+Protected Routes using JWT
 
- Delete contacts
+Password Hashing with Bcrypt
 
- View all saved contacts
+Input Validation using Joi
 
- Real-time database updates via Firebase
+CORS Support for safe cross-origin requests
 
- Secure login & user handling
+Fast and responsive UI with React
 
- Responsive UI using React
+MongoDB Database for persistent storage
 
 # 🛠️ Tech Stack
 
@@ -31,25 +31,47 @@ JavaScript
 
 CSS / Tailwind (optional)
 
-# Backend / Services
+# Backend
 
-Firebase Authentication
+Node.js
 
-Firebase Realtime Database / Firestore
+Express
 
-# ⚙️ Installation
+MongoDB
+
+Security & Utility
+
+Bcrypt (Password Hashing)
+
+Joi (Validation)
+
+JsonWebToken (JWT Authentication)
+
+CORS
+
+# ⚙️ Installation & Setup
+# Frontend
+
+cd client
+
 npm install
 
 npm run dev
 
+# Backend
+
+cd server
+
+npm install
+
+npm start
+
 # 🔑 Environment Variables
 
-Create a .env file and add your Firebase config:
+Create a .env file in your backend:
 
-VITE_FIREBASE_API_KEY=YOUR_KEY
+MONGO_URI=your_mongodb_url
 
-VITE_FIREBASE_AUTH_DOMAIN=YOUR_DOMAIN
+JWT_SECRET=your_jwt_secret
 
-VITE_FIREBASE_DATABASE_URL=YOUR_DB_URL
-
-VITE_FIREBASE_PROJECT_ID=YOUR_ID
+CORS_ORIGIN=http://localhost:5173
