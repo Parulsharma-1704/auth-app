@@ -42,7 +42,7 @@ npm install
 
 npm run dev
 
-🔑 Environment Variables
+# 🔑 Environment Variables
 
 Create a .env file and add your Firebase config:
 
