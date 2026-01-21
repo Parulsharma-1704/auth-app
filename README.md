@@ -1,20 +1,55 @@
-# AuthX – Authentication App
-A secure authentication system built with React, Node.js, and MongoDB.
-Implements strong security practices using Bcrypt for password hashing, Joi for input validation, CORS, and JWT for token-based authentication.
+# 📇 Contacts – CRUD Based Application
 
-# Features
-User signup & login
-Password hashing (Bcrypt)
-Input validation (Joi)
-JWT-based authentication
-Protected routes
-Secure API with CORS enabled
+Simple and efficient contact management tool
 
-# Tech Stack
-Frontend: React
-Backend: Node.js, MongoDB
-Security: Bcrypt, JWT, Joi, CORS
+A lightweight contact management application that enables users to Create, Read, Update, and Delete (CRUD) contact information.
+The app uses Firebase for real-time database syncing and authentication, combined with a React frontend for a smooth user experience.
 
-# Setup
+🚀 Features
+
+ Add new contacts
+
+ Edit existing contacts
+
+ Delete contacts
+
+ View all saved contacts
+
+ Real-time database updates via Firebase
+
+ Secure login & user handling
+
+ Responsive UI using React
+
+# 🛠️ Tech Stack
+
+# Frontend
+
+React
+
+JavaScript
+
+CSS / Tailwind (optional)
+
+# Backend / Services
+
+Firebase Authentication
+
+Firebase Realtime Database / Firestore
+
+# ⚙️ Installation
 npm install
-npm start
+
+npm run dev
+
+🔑 Environment Variables
+
+Create a .env file and add your Firebase config:
+
+VITE_FIREBASE_API_KEY=YOUR_KEY
+
+VITE_FIREBASE_AUTH_DOMAIN=YOUR_DOMAIN
+
+VITE_FIREBASE_DATABASE_URL=YOUR_DB_URL
+
+VITE_FIREBASE_PROJECT_ID=YOUR_ID
